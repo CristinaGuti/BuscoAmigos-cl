@@ -30,7 +30,8 @@ function Gift() {
         'https://res.cloudinary.com/dulqf7f1b/image/upload/v1678993459/BuscoAmigos/Gift/gonzalo_gmll3e.png',
         'https://res.cloudinary.com/dulqf7f1b/image/upload/v1678993453/BuscoAmigos/Gift/jadde_qo6nth.png',
         'https://res.cloudinary.com/dulqf7f1b/image/upload/v1678993453/BuscoAmigos/Gift/jaime_njpbyu.jpg',
-        'https://res.cloudinary.com/dulqf7f1b/image/upload/v1678993447/BuscoAmigos/Gift/juanan_2_bbfn7l.png'
+        'https://res.cloudinary.com/dulqf7f1b/image/upload/v1678993447/BuscoAmigos/Gift/juanan_2_bbfn7l.png',
+        'https://res.cloudinary.com/dulqf7f1b/image/upload/v1679051654/BuscoAmigos/Gift/equipo_smkwko.webp'
     ]
 
     const randomIndex = Math.floor(Math.random() * images.length)

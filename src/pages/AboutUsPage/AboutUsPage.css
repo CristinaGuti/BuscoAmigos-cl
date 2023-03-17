@@ -4,11 +4,11 @@
 
 .about h5 {
     text-align: justify;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-right: 50px;
 }
 
 .about img {
-    width: 500px;
+    width: 400px;
     height: max-content;
 }
