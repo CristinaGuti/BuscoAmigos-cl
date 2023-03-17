@@ -100,20 +100,33 @@ const PlanDetailsPage = () => {
                 <h1 className="mb-4">{plan.title} </h1>
                 <hr />
 
-                <div className="description" md={{ span: 6, offset: 1 }}>
+                {/* <div className="description" md={{ span: 6, offset: 1 }}> */}
+                <Row>
                     <h5 className="description">Descripción:</h5>
                     <h5>{plan.description}</h5>
+                </Row>
+
+                <Row>
                     <h5 className="description">Origen:</h5>
                     <h5>{plan.origin}</h5>
+                </Row>
+
+                <Row>
                     <h5 className="description">Destino:</h5>
                     <h5>{plan.destination}</h5>
+                </Row>
+
+                <Row>
                     <h5 className="description">Fecha:</h5>
                     <h5>{plan.date}</h5>
+                </Row>
+
+                <Row>
                     <h5 className="description">Noches:</h5>
                     <h5>{plan.duration}</h5>
                     <hr />
-
-                </div>
+                </Row>
+                {/* </div> */}
 
 
                 <Row className="d-flex justify-content-center mt-5">
