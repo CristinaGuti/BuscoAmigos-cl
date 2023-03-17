@@ -49,7 +49,7 @@ const PlanEditForm = ({ setShowEditPlanModal }) => {
         planService
             .editPlan(plan_id, plan)
             .then(() => {
-                loadPlanData()
+                navigate('/myPlans')
                 setShowEditPlanModal(false)
             })
             .catch(err => setErrors(err.response.data.errorMessages))
