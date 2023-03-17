@@ -48,7 +48,10 @@ const PlanEditForm = ({ setShowEditPlanModal }) => {
 
         planService
             .editPlan(plan_id, plan)
-            .then(() => setShowEditPlanModal(false))
+            .then(() => {
+                setShowEditPlanModal(false)
+                navigate(`/myPlans`)
+            })
             .catch(err => setErrors(err.response.data.errorMessages))
     }
 
