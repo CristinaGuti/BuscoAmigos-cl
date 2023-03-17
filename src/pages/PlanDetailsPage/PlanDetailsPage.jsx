@@ -103,32 +103,47 @@ const PlanDetailsPage = () => {
                 {/* <div className="description" md={{ span: 6, offset: 1 }}> */}
                 <Row>
                     <Col md={{ span: 2 }}>
-                        <h5 className="description">Descripción:</h5>
+                        <h5 className="descriptionTitle">Descripción:</h5>
                     </Col >
-                    <Col md={{ span: 2 }}>
+                    <Col md={{ span: 10 }}>
                         <h5>{plan.description}</h5>
                     </Col>
                 </Row>
 
                 <Row>
-                    <h5 className="description">Origen:</h5>
-                    <h5>{plan.origin}</h5>
+                    <Col md={{ span: 2 }}>
+                        <h5 className="descriptionTitle">Origen:</h5>
+                    </Col>
+                    <Col md={{ span: 10 }}>
+                        <h5>{plan.origin}</h5>
+                    </Col>
                 </Row>
 
                 <Row>
-                    <h5 className="description">Destino:</h5>
-                    <h5>{plan.destination}</h5>
+                    <Col md={{ span: 2 }}>
+                        <h5 className="descriptionTitle">Destino:</h5>
+                    </Col>
+                    <Col md={{ span: 10 }}>
+                        <h5>{plan.destination}</h5>
+                    </Col>
                 </Row>
 
                 <Row>
-                    <h5 className="description">Fecha:</h5>
-                    <h5>{plan.date}</h5>
+                    <Col md={{ span: 2 }}>
+                        <h5 className="descriptionTitle">Fecha:</h5>
+                    </Col>
+                    <Col md={{ span: 10 }}>
+                        <h5>{plan.date}</h5>
+                    </Col>
                 </Row>
 
                 <Row>
-                    <h5 className="description">Noches:</h5>
-                    <h5>{plan.duration}</h5>
-                    <hr />
+                    <Col md={{ span: 2 }}>
+                        <h5 className="descriptionTitle">Noches:</h5>
+                    </Col>
+                    <Col md={{ span: 10 }}>
+                        <h5>{plan.duration}</h5>
+                    </Col>
                 </Row>
                 {/* </div> */}
 
