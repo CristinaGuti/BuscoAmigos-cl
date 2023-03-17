@@ -102,8 +102,12 @@ const PlanDetailsPage = () => {
 
                 {/* <div className="description" md={{ span: 6, offset: 1 }}> */}
                 <Row>
-                    <h5 className="description">Descripción:</h5>
-                    <h5>{plan.description}</h5>
+                    <Col md={{ span: 2 }}>
+                        <h5 className="description">Descripción:</h5>
+                    </Col >
+                    <Col md={{ span: 2 }}>
+                        <h5>{plan.description}</h5>
+                    </Col>
                 </Row>
 
                 <Row>
