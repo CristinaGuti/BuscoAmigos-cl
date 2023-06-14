@@ -181,16 +181,16 @@ const PlanSearchForm = ({ getPlans }) => {
 
                 <Row className="justify-content-center mt-3 mb-4">
                     <Col md={{ span: 3 }}>
-                        <div className="d-grid">
-                            <Button variant="dark" type="submit">Buscar</Button>
+                        <div className="d-grid mt-2">
+                            <Button variant="outline-light" type="submit">Buscar</Button>
                         </div>
                     </Col>
 
                     <Col md={{ span: 1 }}></Col>
 
                     <Col md={{ span: 3 }}>
-                        <div className="d-grid">
-                            <Button variant="dark" onClick={() => loadRandomPlans()}>Borrar filtros</Button>
+                        <div className="d-grid mt-2">
+                            <Button variant="outline-light" onClick={() => loadRandomPlans()}>Borrar filtros</Button>
                         </div>
                     </Col>
                 </Row>
